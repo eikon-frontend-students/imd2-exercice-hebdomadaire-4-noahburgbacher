@@ -7,8 +7,93 @@
 a {
   color: inherit;
 }
-
+body {
+  font-family: Roboto;
+}
 img,
 video {
   display: block;
+}
+.land {
+  width: 100px;
+  text-align: right;
+}
+.mobile {
+  background-color: #ffcc2f;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #37d3d2;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile.un {
+  width: 195px;
+}
+.desktop.un {
+  width: 105px;
+}
+.mobile.deux {
+  width: 153px;
+}
+.desktop.deux {
+  width: 147px;
+}
+.mobile.trois {
+  width: 123px;
+}
+.desktop.trois {
+  width: 177px;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 12px;
+  color: #fff;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.chart1 {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.legend-desktop-child {
+  width: 16px;
+  background-color: #ffcc2f;
+  height: 16px;
+}
+.legend-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.legend-mobile-child {
+  width: 16px;
+  background-color: #37d3d2;
+  height: 16px;
+}
+.legend {
+  position: absolute;
+  top: 160px;
+  width: 422px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px 20px 120px;
+  gap: 20px;
+  font-size: 12px;
 }
